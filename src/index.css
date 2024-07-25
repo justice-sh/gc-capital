@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: white;
+}
+
+.clamp-image {
+  width: clamp(50px, 100vw, 200px);
+}
